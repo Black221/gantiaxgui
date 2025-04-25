@@ -1,0 +1,52 @@
+<div class="flex flex-col p-6 sm:p-8 w-full" *transloco="let t;">
+    <!-- Dialog header -->
+    <div class="flex items-center justify-between mb-8">
+        <h2 class="text-2xl font-semibold">{{t('member.new-member')}}</h2>
+        <button [matDialogClose]="false">
+            <mat-icon>close</mat-icon>
+        </button>
+    </div>
+
+    <!-- Form -->
+    <form [formGroup]="form">
+        <div class="grid grid-cols-2 gap-4 mb-8">
+            <!-- First Name -->
+            <mat-form-field class="w-full" appearance="outline">
+                <mat-label>{{t('member.columns.firstname')}}</mat-label>
+                <input matInput [formControlName]="'firstname'" >
+                <mat-error *ngIf="form.get('firstname')?.hasError('required')">
+                    {{t('member.form.firstname-required')}}
+                </mat-error>
+            </mat-form-field>
+
+            <!-- Last Name -->
+            <mat-form-field class="w-full" appearance="outline">
+                <mat-label>{{t('member.columns.lastname')}}</mat-label>
+                <input matInput [formControlName]="'lastname'">
+                <mat-error *ngIf="form.get('lastname')?.hasError('required')">
+                    {{t('member.form.lastname-required')}}
+                </mat-error>
+            </mat-form-field>
+        </div>
+
+        <!-- Category -->
+        <mat-form-field class="w-full" appearance="outline">
+            <mat-label>{{t('member.columns.category')}}</mat-label>
+            <mat-select [formControlName]="'category'">
+                <mat-option *ngFor="let category of categories" [value]="category.id">
+                    {{t(category.name)}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </form>
+
+    <!-- Actions -->
+    <div class="flex items-center justify-end gap-2 mt-8">
+        <button mat-stroked-button [matDialogClose]="false">
+            {{t('button.cancel')}}
+        </button>
+        <button mat-flat-button [color]="'primary'" (click)="saveAndClose()">
+            {{t('button.save')}}
+        </button>
+    </div>
+</div>

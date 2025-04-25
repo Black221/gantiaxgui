@@ -1,0 +1,589 @@
+{
+    "sidebar": {
+        "chats": {
+            "title": "Penccub Tolbi"
+        },
+        "maps": {
+            "title": "Cartes et géolocalisation",
+            "description": "Cartes et géolocalisation"
+        },
+        "faucet": {
+            "title": "Distribution de l'eau",
+            "description": "Distribution de l'eau"
+        },
+        "settings": {
+            "title": "Paramètres",
+            "description": "Paramètres de l'application"
+        },
+        "rendement": {
+            "title": "Cultures et Sols",
+            "description": "Rendement de l'application"
+        }
+    },
+    "items-per-page": "Éléments par page",
+    "range-label": "Éléments {{start}} - {{end}} sur {{total}}",
+    "button": {
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "close": "Fermer",
+        "submit": "Soumettre",
+        "add-member": "Ajouter un journalier",
+        "add-team": "Ajouter une équipe",
+        "change-team": "Changer d'équipe",
+        "validate": "Valider changement",
+        "archivate": "Archiver",
+        "confirm": "Confirmer",
+        "initialize": "Commencer le pointage",
+        "change-archive": "Choisir pointage"
+    },
+    "archive": {
+        "select-archive": "Sélectionner date pointage",
+        "no-data": "Aucune archive trouvée",
+        "total": "Total archives",
+        "size": "Nombre d'éléments par page",
+        "title": "Liste des pointages"
+    },
+    "input": {
+        "search": "Rechercher",
+        "search-placeholder": "Rechercher...",
+        "date-placeholder": "Sélectionner une date"
+    },
+    "input-placeholder": {
+        "search-teams": "Rechercher une équipe",
+        "search": "Rechercher..."
+    },
+    "no-data": "Aucune donnée trouvée",
+    "message": {
+        "select-date": "Veuillez sélectionner une date"
+    },
+    "auth": {
+        "sign_in": {
+            "title": "Se connecter",
+            "subtitle": "Connectez-vous à votre compte",
+            "email": "Email",
+            "email_required": "L'email est requis",
+            "email_invalid": "L'email est invalide",
+            "password": "Mot de passe",
+            "password_required": "Le mot de passe est requis",
+            "remember_me": "Se souvenir de moi",
+            "forgot_password": "Mot de passe oublié ?",
+            "no_account": "Pas de compte ?",
+            "sign_up": "S'inscrire",
+            "sign_in": "Se connecter",
+            "error": "Email ou mot de passe incorrect"
+        },
+        "sign_up": {
+            "title": "S'inscrire",
+            "subtitle": "Vous avez déjà un compte ?",
+            "first_name": "Prénom",
+            "first_name_required": "Le prénom est requis",
+            "last_name": "Nom",
+            "last_name_required": "Le nom est requis",
+            "email": "Email",
+            "email_required": "L'email est requis",
+            "email_invalid": "L'email est invalide",
+            "password": "Mot de passe",
+            "password_required": "Le mot de passe est requis",
+            "password_min": "Le mot de passe doit contenir au moins 6 caractères",
+            "password_confirmation": "Confirmer le mot de passe",
+            "password_confirmation_required": "La confirmation du mot de passe est requise",
+            "password_confirmation_same": "Les mots de passe doivent être identiques",
+            "sign_up": "S'inscrire",
+            "already_account": "Déjà un compte ?",
+            "sign_in": "Se connecter"
+        },
+        "forgot_password": {
+            "title": "Mot de passe oublié",
+            "subtitle": "Entrez votre email pour réinitialiser votre mot de passe",
+            "email": "Email",
+            "email_required": "L'email est requis",
+            "email_invalid": "L'email est invalide",
+            "send": "Envoyer le lien de réinitialisation",
+            "back": "Retour à la connexion",
+            "back_to": "Retour à",
+            "sign_in": "Se connecter"
+        },
+        "reset_password": {
+            "title": "Réinitialiser le mot de passe",
+            "subtitle": "Entrez votre nouveau mot de passe",
+            "password": "Nouveau mot de passe",
+            "password_required": "Le mot de passe est requis",
+            "password_min": "Le mot de passe doit contenir au moins 6 caractères",
+            "password_confirmation": "Confirmer le mot de passe",
+            "password_confirmation_required": "La confirmation du mot de passe est requise",
+            "password_confirmation_same": "Les mots de passe doivent être identiques",
+            "reset": "Réinitialiser le mot de passe",
+            "back": "Retour à la connexion",
+            "back_to": "Retour à",
+            "sign_in": "Se connecter"
+        },
+        "sign_out": {
+            "title": "Déconnexion",
+            "description": "Voulez-vous vraiment vous déconnecter ?",
+            "redirecting": "Déconnexion en cours...",
+            "seconds": "secondes",
+            "back": "Retour à la connexion",
+            "back_to": "Retour à",
+            "sign_in": "Se connecter"
+        }
+    },
+    "calendar": {
+        "days": {
+            "mon": "Lun",
+            "tue": "Mar",
+            "wed": "Mer",
+            "thu": "Jeu",
+            "fri": "Ven",
+            "sat": "Sam",
+            "sun": "Dim",
+            "monday": "Lundi",
+            "tuesday": "Mardi",
+            "wednesday": "Mercredi",
+            "thursday": "Jeudi",
+            "friday": "Vendredi",
+            "saturday": "Samedi",
+            "sunday": "Dimanche",
+            "0": "Dimanche",
+            "1": "Lundi",
+            "2": "Mardi",
+            "3": "Mercredi",
+            "4": "Jeudi",
+            "5": "Vendredi",
+            "6": "Samedi"
+        },
+        "months": {
+            "jan": "Jan",
+            "feb": "Fév",
+            "mar": "Mar",
+            "apr": "Avr",
+            "jun": "Juin",
+            "jul": "Juil",
+            "aug": "Août",
+            "sep": "Sep",
+            "oct": "Oct",
+            "nov": "Nov",
+            "dec": "Déc",
+            "january": "Janvier",
+            "february": "Février",
+            "march": "Mars",
+            "april": "Avril",
+            "may": "Mai",
+            "june": "Juin",
+            "july": "Juillet",
+            "august": "Août",
+            "september": "Septembre",
+            "october": "Octobre",
+            "november": "Novembre",
+            "december": "Décembre",
+            "0": "Janvier",
+            "1": "Février",
+            "2": "Mars",
+            "3": "Avril",
+            "4": "Mai",
+            "5": "Juin",
+            "6": "Juillet",
+            "7": "Août",
+            "8": "Septembre",
+            "9": "Octobre",
+            "10": "Novembre",
+            "11": "Décembre"
+        },
+        "today": "Aujourd'hui",
+        "clear": "Effacer",
+        "close": "Fermer",
+        "previous-month": "Mois précédent",
+        "next-month": "Mois suivant",
+        "previous-year": "Année précédente",
+        "next-year": "Année suivante",
+        "previous-decade": "Décennie précédente",
+        "next-decade": "Décennie suivante",
+        "previous-century": "Siècle précédent",
+        "next-century": "Siècle suivant",
+        "daily": "Aujourd'hui",
+        "weekly": "Cette semaine",
+        "monthly": "Ce mois-ci",
+        "monthly-by-default": "Total du mois",
+        "monthly-by-day": "Journalier",
+        "monthly-by-week": "Hebdomadaire"
+    },
+    "validation": {
+        "required": "Ce champ est requis",
+        "min": "La valeur doit être supérieure à {min}",
+        "max": "La valeur doit être inférieure à {max}",
+        "email": "Veuillez entrer une adresse email valide"
+    },
+    "notifications": {
+        "no-notifications": "Pas de notifications",
+        "no-notifications-description": "Vous n'avez pas de notifications pour le moment"
+    },
+    "user": {
+        "welcome": "Bienvenue",
+        "connected": "Connecté en tant que",
+        "profile": {
+            "title": "Profil",
+            "description": "Informations personnelles"
+        },
+        "logout": {
+            "title": "Déconnexion",
+            "description": "Voulez-vous vraiment vous déconnecter ?"
+        }
+    },
+    "admin": {
+        "parameter": {
+            "title": "Paramètres de base",
+            "description": ""
+        }
+    },
+    "office": {
+        "sidebar": {
+            "dashboard": "Tableau de bord",
+            "pointages": {
+                "title": "Pointages",
+                "current-pointages": "Pointage actuel",
+                "history": "Historique"
+            },
+            "payment": {
+                "title": "Paiements",
+                "this-month": "Ce mois-ci",
+                "taxes": "taxes",
+                "history": "Historique"
+            },
+            "invoicing": {
+                "title": "Facturations",
+                "internal": "Mon entreprise",
+                "external": "Client",
+                "history": "Historique",
+                "current": "Facturation actuelle",
+                "this-month": "Ce mois-ci"
+            },
+            "parameter": {
+                "title": "Parametrage",
+                "calculation-base": "Bases de calculs"
+            }
+        }
+    },
+    "dashboard": {
+        "title": "Tableau de bord Gantiax Tech ",
+        "subtitle": "Visualisation des paramètres clés de votre sol et de l'environnement",
+        "description": "Cette page vous permet de consulter en temps réel les principales mesures agro-environnementales de votre exploitation : température, humidité, pH, conductivité, nutriments (azote, phosphore, potassium) et indice global de fertilité. Grâce à ces données, vous pouvez surveiller la qualité de votre sol et ajuster vos actions agricoles pour optimiser la santé des cultures.",
+        "stats": {
+            "teams": {
+                "title": "Équipes",
+                "avg_members": "Journaliers en moyenne",
+                "avg_hours": "Heures de travail en moyenne"
+            },
+            "members": {
+                "title": "Journaliers",
+                "total": "Total journaliers",
+                "avg_hours": "Heures de travail en moyenne" 
+            },
+            "work_hours": {
+                "title": "Heures de travail",
+                "total": "Total heures",
+                "average": "Moyenne"
+            },
+            "overtime": {
+                "title": "Heures supplémentaires",
+                "total": "Total heures"
+            },
+            "payment": "Facturation",
+            "real_payment": "Paiement"
+        },
+        "quarter_brs": {
+            "title": "Bordereaux de retenue à la source (BRS)"
+        },
+        "team_performance": {
+            "title": "Performance des équipes",
+            "columns": {
+                "team": "Équipe",
+                "members": "Journaliers",
+                "work_hours": "Heures de travail",
+                "work-hours": "Heures de travail",
+                "normal-hours": "Heures normales",
+                "overtime": "Heures supp.",
+                "extra-hours": "Heures supp.",
+                "payment": "Paiement",
+                "invoice": "Facture",
+                "total": "Totaux",
+                "real-payment": "Paiement réel"
+            }
+        },
+        "monthly_chart": {
+            "title": "Paiements & Factures mensuels",
+            "payment": "Paiement",
+            "invoice": "Facture",
+            "legend": {
+                "title": "Légende",
+                "payment": "Paiement",
+                "invoice": "Facture"
+            },
+            "axis": {
+                "month": "Mois",
+                "teams": "Équipes",
+                "amount": "Montant"
+            }
+        },
+        "archive": {
+            "title": "Historique des pointages",
+            "columns": {
+                "id": "Identifiant",
+                "title":"Titre",
+                "description": "Description",
+                "created-at": "Créé le",
+                "updated-at": "Mis à jour le",
+                "archived-at": "Archivé le",
+                "teams": "Équipes",
+                "members": "Journaliers",
+                "payment": "Paiement",
+                "invoice": "Facture",
+                "work_hours": "Heures de travail",
+                "download": "Liens de téléchargement"
+            },
+            "select-archive": "Sélectionner date pointage",
+            "no-data": "Aucune archive trouvée",
+            "total": "Total archives",
+            "size": "Nombre d'éléments par page",
+            "page": "Page",
+            "previous": "Précédent",
+            "next": "Suivant",
+            "download": "Télécharger"
+        }
+    },
+    "team": {
+        "title": "Listes des équipes",
+        "new-member": "Ajouter une équipe",
+        "new-team": "Nouvelle équipe",
+        "select-team": "Sélectionner une équipe",
+        "columns": {
+            "name": "Nom",
+            "description": "Description",
+            "members-count": "Nombre de journaliers"
+        },
+        "form": {
+            "new": "Nouvelle équipe",
+            "edit": "Modifier l'équipe",
+            "name": "Nom",
+            "description": "Description",
+            "name-required": "Le nom est requis"
+        },
+        "actions": {
+            "info": "Informations", 
+            "edit": "Modifier",
+            "delete": "Supprimer",
+            "new": "Nouveau journalier"
+        },
+        "table": {
+            "no-data": "Aucune équipe trouvée"
+        }
+    },
+    "member": {
+        "title": "Listes des journaliers",
+        "new-member": "Ajouter un journalier",
+        "columns": {
+            "firstname": "Prénom",
+            "lastname": "Nom",
+            "email": "Email",
+            "category": "Catégorie",
+            "hours": "Nombre d'heures",
+            "team": "Équipe",
+            "post": "Poste",
+            "form-title": "Ajouter / Modifier un journalier",
+            "actions": "Actions"
+        },
+        "form": {
+            "form-title": "Ajouter / Modifier un journalier",
+            "new": "Nouveau journalier",
+            "edit": "Modifier le journalier",
+            "firstname": "Prénom",
+            "firstname-required": "Le prénom est requis",
+            "lastname": "Nom",
+            "lastname-required": "Le nom est requis",
+            "category": "Catégorie",
+            "category-required": "La catégorie est requise",
+            "email": "Email",
+            "email-required": "L'email est requis",
+            "email-invalid": "L'email est invalide",
+            "team": "Équipe",
+            "team-required": "L'équipe est requise",
+            "post": "Poste",
+            "post-required": "Le poste est requis"
+        },
+        "actions": {
+            "edit": "Modifier",
+            "delete": "Supprimer",
+            "new": "Nouveau journalier"
+        },
+        "table": {
+            "no-data": "Aucun journalier trouvé"
+        }
+    },
+    "category": {
+        "title": "Catégories",
+        "new-category": "Nouvelle catégorie",
+        "columns": {
+            "name": "Nom",
+            "description": "Description"
+        },
+        "form": {
+            "new": "Nouvelle catégorie",
+            "edit": "Modifier la catégorie",
+            "name": "Nom",
+            "description": "Description",
+            "name-required": "Le nom est requis"
+        },
+        "actions": {
+            "edit": "Modifier",
+            "delete": "Supprimer",
+            "new": "Nouvelle catégorie"
+        },
+        "table": {
+            "no-data": "Aucune catégorie trouvée"
+        }
+    },
+    "monthly-score": {
+        "initialize-button": "Démarer",
+        "initialize": "Initialiser le score mensuel",
+        "select-month": "Sélectionner un mois",
+        "select-teams": "Sélectionner une équipe",
+        "start-date": "Date de début (mois/jour/année)",
+        "end-date": "Date de fin (mois/jour/année)",
+        "title": "Score mensuel",
+        "columns": {
+            "member-information": "Informations personnelles",
+            "weekly-hours": "Heures hebdomadaires",
+            "daily-hours": "Heures journalières",
+            "id": "Identifiant",
+            "firstname": "Prénom",
+            "lastname": "Nom",
+            "category": "Catégorie",
+            "totalhours": "Heures totales",
+            "updated-at": "Mis à jour le"
+        },
+        "table": {
+            "no-data": "Aucun score mensuel trouvé"
+        }
+    },
+    "payment": {
+        "title": "Paiements",
+        "columns": {
+            "id": "Identifiant",
+            "member": "Membre",
+            "category": "Catégorie",
+            "hours": "Heures totales",
+            "normal-hours": "Heures normales",
+            "extra-hours": "Heures supp.",
+            "total-payment": "Paiement total",
+            "normal-payment": "Paiement normal",
+            "extra-payment": "Paiement Heurs supp.",
+            "facturation": "Facturation",
+            "value": "Valeur",
+            "updated-at": "Mis à jour le"
+        },
+        "form": {
+            "member": "Membre",
+            "member-required": "Le journalier est requis",
+            "category": "Catégorie",
+            "category-required": "La catégorie est requise",
+            "hours": "Heures",
+            "hours-required": "Les heures sont requises",
+            "hours-positive": "Les heures doivent être positives",
+            "normal-hours": "Heures normales",
+            "normal-hours-required": "Les heures normales sont requises",
+            "normal-hours-positive": "Les heures normales doivent être positives",
+            "extra-hours": "Heures supplémentaires",
+            "value": "Valeur",
+            "value-required": "La valeur est requise",
+            "value-positive": "La valeur doit être positive"
+        },
+        "actions": {
+            "edit": "Modifier",
+            "delete": "Supprimer",
+            "new": "Nouveau paiement"
+        },
+        "table": {
+            "no-data": "Aucun paiement trouvé"
+        }
+    },
+    "constant": {
+        "title": "Base de calculs",
+        "new-constant": "Nouvelle constante",
+        "columns": {
+            "id": "Identifiant",
+            "label": "Libellé",
+            "value": "Valeur",
+            "type": "Désignation",
+            "updated-at": "Mis à jour le"
+        },
+        "types": {
+            "working_hours": "Heures de travail",
+            "base_hours_salary": "Salaire horaire de base",
+            "tva": "TVA",
+            "social_security": "Sécurité sociale",
+            "daily_working_hours": "Heures de travail pour une journée"
+
+        },
+        "form": {
+            "new": "Nouvelle constante",
+            "edit": "Modifier la constante",
+            "label": "Libellé",
+            "type": "Désignation",
+            "label-required": "Le libellé est requis",
+            "value": "Valeur",
+            "value-required": "La valeur est requise",
+            "add-rule": "Ajouter une règle",
+            "rule": "Règle",
+            "rule-min": "Minimum",
+            "rule-max": "Maximum",
+            "rule-min-required": "Le minimum est requis",
+            "rule-max-required": "Le maximum est requis",
+            "rule-min-positive": "Le minimum doit être positif",
+            "rule-max-positive": "Le maximum doit être positif",
+            "rule-description": "Description",
+            "rule-description-required": "La description est requise",
+            "rule-percentage": "Pourcentage",
+            "rule-percentage-required": "Le pourcentage est requis",
+            "rule-percentage-positive": "Le pourcentage doit être positif"
+        },
+        "actions": {
+            "edit": "Modifier",
+            "delete": "Supprimer",
+            "new": "Nouvelle constante"
+        },
+        "table": {
+            "no-data": "Aucune constante trouvée"
+        }
+    },
+    "payment-by-category": {
+        "title": "Taux de paiement par catégorie",
+        "new-payment-by-category": "Ajouter pour une nouvelle catégorie",
+        "columns": {
+            "id": "Identifiant",
+            "category": "Catégorie",
+            "normal-hours": "Heures normales",
+            "extra-hours": "Heures supplémentaires",
+            "percentage": "Pourcentage",
+            "value": "Valeur",
+            "updated-at": "Mis à jour le"
+        },
+        "form": {
+            "category": "Catégorie",
+            "category-required": "La catégorie est requise",
+            "normal-hours": "Paiement par heures",
+            "normal-hours-required": "Paiement par heures est requis",
+            "normal-hours-positive": "Paiement par heures doit être positif",
+            "extra-hours": "Heures supplémentaires",
+            "percentage": "Pourcentage",
+            "value": "Valeur",
+            "value-required": "La valeur est requise",
+            "value-positive": "La valeur doit être positive"
+        },
+        "actions": {
+            "edit": "Modifier",
+            "delete": "Supprimer",
+            "new": "Ajouter montant pour une catégorie"
+        },
+        "table": {
+            "no-data": "Aucune catégorie de paiement trouvée"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+<div class="overflow-x-auto mb-6" *transloco="let t;">
+    <table class="min-w-full  border-gray-300 bg-card text-base text-left rounded-md">
+        <thead class="uppercase font-semibold">
+            <tr>
+                <th class="border-b border-gray-300 px-4 py-2"></th>
+                <th class="border-b border-gray-300 px-4 py-2">
+                    {{ t('dashboard.team_performance.columns.work-hours') }}
+                </th>
+                <th class="border-b border-gray-300 px-4 py-2">
+                    {{ t('dashboard.team_performance.columns.payment') }}
+                </th>
+                <th class="border-b border-l text-center border-gray-300 px-4 py-2">
+                    {{ t('dashboard.team_performance.columns.real-payment') }}
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Normal Column -->
+            <tr>
+                <th class="border-b border-gray-300 px-4 py-2">
+                    {{ t('dashboard.team_performance.columns.normal-hours') }}
+                </th>
+                <td class="border-b border-gray-300 px-4 py-2">{{ teamStat.normalHours }}</td>
+                <td class="border-b border-gray-300 px-4 py-2">
+                    {{ teamStat.normalPayment }}
+                </td>
+                <td class="border-l text-center border-gray-300 px-4 py-2 text-xl" rowspan="3">{{ teamStat.realPayment }}</td>
+            </tr>
+
+            <!-- Extra Column -->
+            <tr>
+                <th class="border-b border-gray-300 px-4 py-2">
+                    {{ t('dashboard.team_performance.columns.extra-hours') }}
+                </th>
+                <td class="border-b border-gray-300 px-4 py-2">{{ teamStat.extraHours }}</td>
+                <td class="border-b border-gray-300 px-4 py-2">{{ teamStat.extraPayment }}</td>
+            </tr>
+
+            <!-- Total Column -->
+            <tr>
+                <th class="border-gray-300 px-4 py-2">
+                    {{ t('dashboard.team_performance.columns.total') }}
+                </th>
+                <td class="border-gray-300 px-4 py-2">{{ teamStat.totalHours }}</td>
+                <td class="border-gray-300 px-4 py-2">{{ teamStat.payment }}  ({{t('payment.columns.facturation')}})</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

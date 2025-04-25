@@ -1,0 +1,33 @@
+
+<form [formGroup]="formGroup">
+    <!-- 
+        Choice between
+        - Entité Supérieur
+        - Compagnie
+        - Courtier
+     -->
+    <div  class="mt-4">
+        <mat-radio-group formControlName="entityType">
+            <mat-radio-button value="superiorEntity">
+                Entité Supérieur
+            </mat-radio-button>
+            <mat-radio-button value="company">
+                Compagnie
+            </mat-radio-button>
+            <mat-radio-button value="broker">
+                Courtier
+            </mat-radio-button>
+        </mat-radio-group>
+    </div>
+    
+    
+    <button mat-button matStepperNext
+        class="mat-button-large  mt-6"
+        mat-flat-button
+        [color]="'primary'"
+        [disabled]="formGroup.invalid"
+        (click)="onNext()"
+    >
+        Suivant
+    </button>
+</form>

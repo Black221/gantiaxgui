@@ -1,0 +1,31 @@
+<div class="flex flex-col p-6 sm:p-8 w-full" *transloco="let t;">
+    <!-- Dialog header -->
+    <div class="flex items-center justify-between mb-8">
+        <h2 class="text-2xl font-semibold">{{t('team.new-team')}}</h2>
+        <button [matDialogClose]="false">
+            <mat-icon>close</mat-icon>
+        </button>
+    </div>
+
+    <!-- Form -->
+    <form [formGroup]="form">
+        <!-- Name -->
+        <mat-form-field class="w-full mb-4" appearance="outline">
+            <mat-label>{{t('team.columns.name')}}</mat-label>
+            <input matInput [formControlName]="'name'">
+            <mat-error *ngIf="form.get('name')?.hasError('required')">
+                {{t('team.form.name-required')}}
+            </mat-error>
+        </mat-form-field>
+    </form>
+
+    <!-- Actions -->
+    <div class="flex items-center justify-end gap-2 mt-8">
+        <button mat-stroked-button [matDialogClose]="false">
+            {{t('button.cancel')}}
+        </button>
+        <button mat-flat-button [color]="'primary'" (click)="saveAndClose()">
+            {{t('button.save')}}
+        </button>
+    </div>
+</div>
